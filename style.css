@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+/* common shared style */
+.primary-btn{
+    border: 0;
+    padding: 22px 43px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+/* banner style */
+.banner-container{
+    height: 100vh;
+/* background-image: url("Flower Asset/pngwing 10.png");
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: 635px 800px; */
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.banner-right{
+  width: 650px;
+  height: 800px;
+  padding-left: 240px;  
+     
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 40px;
+}
+.banner-desc{
+   color: rgba(39, 39, 39, 0.60);
+   font-size: 18px;
+   width: 634px;
+   margin-bottom: 40px;
+   /* font-weight: 400; */
+}
