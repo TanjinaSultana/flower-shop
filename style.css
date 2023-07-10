@@ -11,6 +11,7 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
+    font-size: 20px;
 }
 .primary{
     color: #E55473;
@@ -59,7 +60,7 @@
     color: #272727;
     margin-top: 40px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
 
 }
 .feature-desc{
@@ -130,6 +131,7 @@ padding-bottom: 20px;
     background: rgba(229, 84, 115, 0.05);
     border-radius: 10px;
    gap: 20px;
+   padding: 100px;
   
 }
 .hot-deal-img img{
@@ -144,4 +146,17 @@ padding-bottom: 20px;
  margin-left: 200px;
  margin-top: 20px;
    
+}
+/* instagram section */
+.insta-card-img img{
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+}
+.instagram-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
 }
