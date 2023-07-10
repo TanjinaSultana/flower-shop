@@ -160,3 +160,31 @@ padding-bottom: 20px;
     gap: 24px;
     margin-bottom: 30px;
 }
+
+/* latest deal section */
+.latest-deal{
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 180px;
+   padding: 40px;
+    border-radius: 10px;
+}
+.input-email{
+    border: 0;
+    padding: 15px 300px 15px 5px;
+    text-align: left;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+   
+}
+.email-btn{
+    padding: 12px 18px;
+}
