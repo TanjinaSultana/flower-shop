@@ -10,11 +10,13 @@
     padding: 22px 43px;
     border-radius: 8px;
     background: #E55473;
+    color: white;
 }
 
 /* banner style */
 .banner-container{
     height: 100vh;
+    width: 100%;
 /* background-image: url("Flower Asset/pngwing 10.png");
 background-repeat: no-repeat;
 background-position: right bottom;
@@ -24,16 +26,22 @@ background-size: 635px 800px; */
     justify-content: center;
     align-items: center;
    
+   
 }
-.banner-right{
-  width: 650px;
-  height: 800px;
-  padding-left: 240px;  
+.banner-right img{
+  width: 500px;
+  height: 650px;
+ 
+  
+   
      
+}
+.banner-left{
+    margin-left: 100px;
 }
 .banner-title{
     color: #272727;
-    font-size: 80px;
+    font-size: 55px;
     font-weight: 800;
     width: 708px;
     margin-bottom: 40px;
@@ -44,4 +52,52 @@ background-size: 635px 800px; */
    width: 634px;
    margin-bottom: 40px;
    /* font-weight: 400; */
+}
+/* feature section */
+.feature-title{
+    text-align: center;
+    color: #272727;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.feature-desc{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+margin: 10px;
+}
+.card{
+    width: 400px;
+    height: 430px;
+    border: 1px solid white;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+   
+    
+}
+.card img {
+   width: 250px;
+   height: 380px;
+   margin: 50px 50px 0px 50px;
+}
+.feature-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+.blue-card{
+    background-color: rgba(5, 151, 160, 0.15);;
+}
+.gray-card{
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-title{
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 20px;
 }
