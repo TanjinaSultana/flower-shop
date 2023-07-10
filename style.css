@@ -58,7 +58,7 @@
 .feature-title{
     text-align: center;
     color: #272727;
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 30px;
     font-weight: 900;
 
@@ -113,7 +113,7 @@ padding-bottom: 20px;
     align-items: center;
     padding: 30px;
     gap: 50px;
-    margin: 50px 180px;
+    margin: 80px 180px;
 }
 .delivery-container img{
     padding: 20px;
@@ -166,7 +166,7 @@ padding-bottom: 20px;
     background-image: url("Flower Asset/Rectangle\ 9.png");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 50px 180px;
+    margin: 80px 180px;
    padding: 40px;
     border-radius: 10px;
 }
@@ -187,4 +187,20 @@ padding-bottom: 20px;
 }
 .email-btn{
     padding: 12px 18px;
+}
+
+/* footer-section */
+.footer-container{
+    background-color: black;
+    padding: 50px;
+}
+.footer-title ,.footer-desc {
+    color: white;
+}
+.footer-title{
+    font-size: 45px;
+}
+.copy{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.548);
 }
