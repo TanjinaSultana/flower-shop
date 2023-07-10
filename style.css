@@ -101,3 +101,21 @@ margin: 10px;
    text-decoration: underline;
    margin-top: 20px;
 }
+/* delivery section */
+.delivery-container{
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+    margin: 50px 100px;
+}
+.delivery-container img{
+    padding: 20px;
+}
+.delivery,.support,.product{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+}
