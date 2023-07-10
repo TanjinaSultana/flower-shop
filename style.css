@@ -12,15 +12,14 @@
     background: #E55473;
     color: white;
 }
+.primary{
+    color: #E55473;
+}
 
 /* banner style */
 .banner-container{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
-/* background-image: url("Flower Asset/pngwing 10.png");
-background-repeat: no-repeat;
-background-position: right bottom;
-background-size: 635px 800px; */
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: center;
@@ -29,8 +28,9 @@ background-size: 635px 800px; */
    
 }
 .banner-right img{
-  width: 500px;
-  height: 650px;
+  width: 400px;
+  height: 585px;
+  
  
   
    
@@ -66,11 +66,12 @@ background-size: 635px 800px; */
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
-margin: 10px;
+margin: 20px;
+padding-bottom: 20px;
 }
 .card{
-    width: 400px;
-    height: 430px;
+    width: 300px;
+    height: 330px;
     border: 1px solid white;
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
@@ -79,16 +80,17 @@ margin: 10px;
     
 }
 .card img {
-   width: 250px;
-   height: 380px;
-   margin: 50px 50px 0px 50px;
+   width: 200px;
+   height: 280px;
+     margin: 50px;
 }
 .feature-img{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 50px;
+  margin: 0 auto;
+   
 }
 .blue-card{
     background-color: rgba(5, 151, 160, 0.15);;
@@ -110,7 +112,7 @@ margin: 10px;
     align-items: center;
     padding: 30px;
     gap: 50px;
-    margin: 50px 100px;
+    margin: 50px 180px;
 }
 .delivery-container img{
     padding: 20px;
@@ -118,4 +120,28 @@ margin: 10px;
 .delivery,.support,.product{
     text-align: center;
     color: rgba(39, 39, 39, 0.80);
+}
+
+/* Hot Deal section */
+.hot-deal-container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 10px;
+   gap: 20px;
+  
+}
+.hot-deal-img img{
+    width: 150px;
+    height: 200px;
+}
+
+.hot-deal-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-left: 200px;
+ margin-top: 20px;
+   
 }
