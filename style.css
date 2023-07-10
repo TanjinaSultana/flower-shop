@@ -122,6 +122,41 @@ padding-bottom: 20px;
     text-align: center;
     color: rgba(39, 39, 39, 0.80);
 }
+/* extra category section */
+
+.category-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.category-title{
+    text-shadow: 2px 2px 1px gray;
+}
+.category-card{
+    border: 1px solid tan;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 4px 40px 5px gold;
+    
+}
+.card-body{
+    background-color: #E55473;
+    height: 60px;
+    padding: 10px;
+    
+}
+.category-card img{
+    width: 200px;
+    height: 240px;
+   
+}
+.card-body:hover{
+    background-color: tomato;
+}
 
 /* Hot Deal section */
 .hot-deal-container{
@@ -204,3 +239,5 @@ padding-bottom: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.548);
 }
+
+
