@@ -203,9 +203,12 @@ padding-bottom: 20px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 80px 200px;
-   padding: 10px 80px ;
+   padding: 70px  ;
     border-radius: 10px;
    
+}
+.deal-title{
+    margin-top: -5px;
 }
 
 .input-email{
@@ -220,7 +223,7 @@ padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     margin-top: -20px;
     margin-bottom: 30px;
    
